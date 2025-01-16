@@ -49,4 +49,5 @@ range_value = max_value - min_value
 # I imported statistics to make the standard deviation calculation super simple.
 numbers = (a, b, c, d, e)
 standard_value = statistics.stdev(numbers)
+
 print(average_value, min_value, max_value, range_value, standard_value)
