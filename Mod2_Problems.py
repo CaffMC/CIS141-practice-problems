@@ -1,5 +1,6 @@
 import math
 import statistics
+
 # 1. Create a program that prints the following output to the screen:
 # "Water. Earth. Fire. Air. Long ago, the four nations lived together in harmony.
 # Then, everything changed when the Fire Nation attacked."
@@ -46,7 +47,7 @@ average_value = (a + b + c + d + e) / 5
 min_value = min(a, b, c, d, e)
 max_value = max(a, b, c, d, e)
 range_value = max_value - min_value
-# I imported statistics to make the standard deviation calculation super simple.
+# I imported statistics to make the standard deviation calculation super simple. 
 numbers = (a, b, c, d, e)
 standard_value = statistics.stdev(numbers)
 print(average_value, min_value, max_value, range_value, standard_value)
