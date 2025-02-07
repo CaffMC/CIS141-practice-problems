@@ -10,7 +10,7 @@ print("Hello, " + name + "! You are " + str(age) + " years old. Next year, you w
 # 3. Prompt the user for a sentence and a word to try to find in that sentence. Have the program print out whether the word was found in the sentence. (i.e. True or False)
 sentence = input("Enter a sentence: ")
 word_to_find = input("Enter a word to find: ")
-found = len(sentence.replace(word_to_find, "")) != len(sentence) # Replaces the word if it exists and returns true if the sentences' do not have the same length.
+found = len(sentence.replace(word_to_find, "")) != len(sentence) # Replaces the word if it exists and returns true if the sentences do not have the same length.
 print(found)
 # 4. Prompt the user for: a word, a first index, and a last index. Slice the word at the indexes provided by the user and print to the screen.
 word2 = input("Give me a word: ")
