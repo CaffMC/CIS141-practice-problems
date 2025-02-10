@@ -14,9 +14,9 @@ for char in string:
 for numbers in range(2, 21, 2):
     print(numbers)
 # 4.
-for i in range(1, 6):
-    for j in range(1, 6):
-        print(str(i * j) + " ", end='')
+for i in range(5):
+    for j in range(5):
+        print(str(i + 1) + "/t", end='')
     print("")
 # 5.
 while True:
