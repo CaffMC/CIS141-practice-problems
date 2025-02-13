@@ -1,6 +1,6 @@
 # 1.
 numbers = [1, 2, 3, 4, 5]
-# Sets 'Sum' to an integer to later be added.
+# Sets 'Sum' to an integer to later be added too.
 Sum = 0
 # Iterates through each number in the list.
 for i in numbers:
@@ -10,7 +10,6 @@ for i in numbers:
         Sum += i
 # Prints result using concatenation after labeling 'sum' as a string.
 print("The sum of all the even numbers is: " + str(Sum))
-
 # 2.
 # Chosen list of strings in my list.
 list_of_strings = ["Olympic College is great!", "One branch of Olympic Collge is located in Shelton."]
@@ -30,7 +29,6 @@ for string in strings:
         # Adds chosen strings to my empty list, 'filtered_strings'.
         filtered_strings.append(string)
 print(filtered_strings)
-
 # 4.
 list_of_integers = [2, 3, 7, 9, 4, 6, 3, 7, 2]
 even_int = 0
@@ -42,7 +40,6 @@ for i in list_of_integers:
         odd_int += 1
 print("Even count is: " + str(even_int))
 print("Odd count is: " + str(odd_int))
-
 # 5.
 list_of_integers = [2, 3, 7, 9, 4, 6, 3, 7, 2]
 squared_integers = []
