@@ -39,8 +39,6 @@ def type_advantage(attacker, defender):
         return "Not Very Effective"
     elif (attacker, defender) == ("Electric", "Grass"):
         return "Neutral"
-    else:
-        return "Neutral"
 
 print(type_advantage("Water", "Fire"))
 print(type_advantage("Fire", "Water"))
